@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CS-I Journal J1006</title>
+  </head>
+  <body>
+    <h1>CS-I Journal J1006: Source Control</h1>
+    <p>Name: Chris Brehm</p>
+    <p>Date: 07-Sep-2022</p>
+
+    <p>I received assistance from: No one </p>
+    <p>I assisted: No one </p>
+
+    <h2>Section 1</h2>
+    <h3>Question 1: What is Git communicating to you?</h3>
+    <p>The git log command shows the commit with an identifier, its author, the timestamp when the commit occurred, and the message I included with the commit.</p>
+
+    <h3>Question 2: What do you see that is common between this git log command and the previous git commit?</h3>
+    <p>The git commit provides the message I included with the commit and the first few characters of the identifier.</p>
+
+    <h3>Question 3: Why do you think this is?</h3>
+    <p>I think this would make the git commit easier to track in the git log, especially when the git log becomes very large.</p>
+
+    <h2>Section 2</h2>
+    <h3>Question 1: What do you notice about file1.txt and file2.txt? How are they displayed in git status?</h3>
+    <p>The git status shows that file1.txt had been modified from the previous commit but its changes haven't been staged yet, and file2.txt was untracked by git. The files are displayed in different sections of the git status output.</p>
+
+    <h3>Question 2: Are they both displayed in the same section? If not, why not?</h3>
+    <p>No, they are in different sections. Since file1.txt had changes previously committed, git at least knew about it and detected that it had updates that were not staged yet. However, file2.txt was just created so git has nothing tracked for this file.</p>
+
+    <h2>Section 3</h2>
+    <h3>Question 1: What do you notice about file1.txt and file2.txt? How are they displayed in git status?</h3>
+    <p>Both are listed in the same section under "Changes to be commited" in green text.</p>
+
+    <h3>Question 2: Compare and contrast the manner in which the two files are displayed.</h3>
+    <p>Both are in the same section in green text, but file1.txt shows up as a modified file and file2.txt shows up as a new file.</p>
+
+    <h2>Section 4</h2>
+    <h3>Question 1: How many files are listed as having been changed?</h3>
+    <p>Two. This shows the staged updates for both file1.txt and file2.txt.</p>
+
+    <h3>Question 2: What are the specific differences listed for each file? In what color is the difference displayed?</h3>
+    <p>The diff shows the lines I added to each file with a plus sign in the left column and in green text.</p>
+
+
+    <h2>Section 5</h2>
+    <h3>Question 1: What does Git tell you has changed? Why?</h3>
+    <p>There is no output for either of the diff commands. This is because there have been no further changes since the last commit.</p>
+    
+  </body>
+</html>
