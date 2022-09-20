@@ -1,0 +1,35 @@
+================================================================================
+1. The command to return to the previous directory after a command was issued to temporarily change the directory is:
+------------------------------------------------------------
+	A.  pushd
+	B.  pwd
+	C.  popd
+	D.  pd
+
+================================================================================
+2. The client-server model is typically only effective over short distances.
+------------------------------------------------------------
+	A.  True
+	B.  False
+
+================================================================================
+3. The command to echo text to the screen is:
+------------------------------------------------------------
+	A.  print
+	B.  display
+	C.  echo
+	D.  write
+
+================================================================================
+4. A file is either a destination or source for a stream of data.
+------------------------------------------------------------
+	A.  True
+	B.  False
+
+================================================================================
+5. What command can be used to view a manual about a topic?
+------------------------------------------------------------
+	A.  emanual
+	B.  manual
+	C.  eman
+	D.  man
